@@ -1,2 +1,2 @@
 # MIP
-Small telepresence app using python
+Small telepresence Server for MIP robot. 
