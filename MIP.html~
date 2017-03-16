@@ -1,0 +1,39 @@
+
+<html>
+<head>
+<title>MIP Contol Page</title>
+<style>img { border: 0px }</style> <!-- for IE -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+</head>
+<body>
+<body background="images/shock.jpg">
+<br>
+<p>
+<table>
+<!--<img style="margin-left:200px;" src="http://192.168.1.122:8080/?action=stream" width="640" height="480" align="center" >-->
+
+<img src="http://192.168.1.101:8080/?action=stream" width="640" height="420">
+
+
+<!--<img src="http://71.85.198.248:8080/?action=stream" width="320" height="240">-->
+
+</p>
+<p>
+<a style="margin-left:30px;" ><b>Drive Controls</b>
+</p>
+<a style="margin-left:297px;" href="?switch=1"><img src="images/f.png"></a>
+</p>
+<p>
+<a style="margin-left:236px;" href="?switch=2"><img src="images/l.png"></a>
+<a style="margin-left:14px;" href="?switch=3"><img src="images/s.png"></a>
+<a style="margin-left:14px;" href="?switch=4"><img src="images/r.png"></a>
+</p>
+<p>
+<a style="margin-left:297px;" href="?switch=5"><img src="images/b.png"></a>
+</p>
+<p>
+
+
+
+</body>
+</html>

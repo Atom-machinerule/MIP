@@ -1,0 +1,43 @@
+HOW TO CONFIGURE
+
+1.    I use mjpg server to stream video from raspicam
+
+   Look here to install/configure it.
+
+   https://github.com/jacksonliam/mjpg-streamer
+
+   *** You can always write bash scripts to launch MJPG on boot ****
+
+ 
+2.    Install python cherrypy with
+
+ 
+   sudo apt-get install python-cherrypy3
+
+
+3.    Also you will need to add permissions to the appropriate files or just add the directory with 
+
+   sudo chmod +x -R /home/pi/MIP/
+
+4. launch MJPG and the python script
+
+   export LD_LIBRARY_PATH=.
+   ./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
+
+
+   cd /home/pi/MIP
+   pyhton MIPserver.py 
+
+
+About the hardware 
+
+I am using the serial gpio port for communication to the MIP from the raspberry pi. Attached is the image "RPi-gpio-serial.jpg" for configuring the port  
+
+Also see the WowWee github for wiring up the cable to robot 
+
+  "https://github.com/WowWeeLabs/MiP-BLE-Protocol"
+
+There is now a new Raspberry Pi page that might be useful aswell
+
+
+
